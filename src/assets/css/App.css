@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Poppins;
+  font-weight: 900;
+  src: url(../fonts/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 900;
+  font-style: italic;
+  src: url(../fonts/Poppins-BlackItalic.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 700;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: italic;
+  src: url(../fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: normal;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: normal;
+  font-style: italic;
+  src: url(../fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+  font-family: OpenSans;
+  font-weight: 900;
+  src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  font-weight: 900;
+  font-style: italic;
+  src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  font-weight: 700;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  font-weight: 700;
+  font-style: italic;
+  src: url(../fonts/OpenSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  font-weight: normal;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  font-weight: normal;
+  font-style: italic;
+  src: url(../fonts/OpenSans-Italic.ttf);
+}
