@@ -10,7 +10,6 @@ import OurCustomerSaySection from './sections/OurCustomerSay';
 const HomePage = () => {
   return (
     <Page title="Home">
-      <div>Ini Homepage</div>
       <CategoryMenuSection />
       <BestSellingProductsSection />
       <BestFromFarmerSection />
