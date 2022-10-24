@@ -31,6 +31,11 @@
   font-style: italic;
   src: url(../fonts/Poppins-Italic.ttf);
 }
+@font-face {
+  font-family: Poppins;
+  font-weight: 500;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
 
 @font-face {
   font-family: OpenSans;
