@@ -16,6 +16,7 @@
   width: 100%;
   height: 100%;
   border-radius: 12px;
+  position: relative;
 }
 
 .description-wrapper {
@@ -58,4 +59,28 @@
   font-size: 15px;
   line-height: 22.5px;
   cursor: pointer;
+}
+
+.discount-label {
+  background-color: #f4f8ec;
+  padding: 0 8px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #6a983c;
+  display: flex;
+  align-items: center;
+}
+
+.price-stroke {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #a9a9a9;
+  text-decoration: line-through;
 }

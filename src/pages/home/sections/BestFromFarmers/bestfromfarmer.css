@@ -11,7 +11,7 @@
   margin-bottom: 16px;
 }
 
-.sidebar-menu span {
+.sidebar-menu div {
   margin-bottom: 12px;
   font-family: OpenSans;
   font-weight: 400;
@@ -19,6 +19,7 @@
   line-height: 19px;
   color: #6a983c;
   text-decoration: underline;
+  max-width: fit-content;
   cursor: pointer;
 }
 

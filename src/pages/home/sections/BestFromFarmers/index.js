@@ -9,23 +9,28 @@ const dummyData = [
       'https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg',
     title: 'Product Title 1',
     subtitle: 'Space for a small product description',
-    price: 1.48,
+    price: 100,
+    discount: 20,
   },
   {
     image:
       'https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg',
     title: 'Product Title 2',
     subtitle: 'Space for a small product description',
-    price: 2.48,
+    price: 50,
+    discount: 0,
   },
   {
     image:
       'https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg',
     title: 'Product Title 3',
     subtitle: 'Space for a small product description',
-    price: 3.48,
+    price: 70.5,
+    discount: 36,
   },
 ];
+
+const sidebarMenu = ['Carrots', 'Tomatoes', 'Potatoes', 'Chicken', 'Beef'];
 
 const BestFromFarmerSection = () => {
   return (
@@ -33,11 +38,9 @@ const BestFromFarmerSection = () => {
       <div className="col-3">
         <div className="sidebar-title">Best from Farmers</div>
         <div className="sidebar-menu d-flex flex-column">
-          <span>Carrots</span>
-          <span>Tomatoes</span>
-          <span>Potatoes</span>
-          <span>Chicken</span>
-          <span>Beef</span>
+          {sidebarMenu.map((item, idx) => (
+            <div key={idx}>{item}</div>
+          ))}
         </div>
 
         <div className="more-products-button d-flex align-items-center justify-content-center">
@@ -56,6 +59,7 @@ const BestFromFarmerSection = () => {
                 title={item.title}
                 subtitle={item.subtitle}
                 price={item.price}
+                discount={item.discount}
               />
             </div>
           );
