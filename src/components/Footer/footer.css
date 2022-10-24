@@ -1,0 +1,73 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 50px; 
+    
+}
+
+
+.title {
+    position:relative;
+    font-family: 'Poppins'bold ;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #151515;
+    margin-bottom: 16px;
+    margin-top: 64px;
+}
+
+.footer-menu p {
+   position: relative;
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6a983c;
+    justify-content: space-evenly;
+}
+
+.title-product {
+    position: relative;
+    font-family: 'Poppins'bold;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #151515;
+    margin-top: 83px;
+}
+
+
+
+.chip {
+   display: flex;
+   flex-wrap: wrap;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 18px;
+   margin-top: 20px;
+}
+
+.chip p {
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    padding: 4px 10px;
+    margin-right: 16px;
+}
+
+.text {
+    font-family: 'OpenSans';
+    font-style: normal ;
+    font-size: 14px;
+    line-height: 19px;
+    color: #151515;
+    padding-top: 52px;
+    margin-bottom: 64px;
+}
+
