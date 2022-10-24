@@ -1,0 +1,102 @@
+.anchor {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 37px;
+}
+
+.card-img {
+  width: 236px;
+  height: 180px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.card-wrapper {
+  width: 268px;
+  padding: 16px;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+}
+
+.title {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 16px;
+}
+
+.description {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.price-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.price-tag {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button-beli {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6.5px 12px;
+  background: #6a983c;
+  border: 2px solid #46760a;
+  border-radius: 12px;
+}
+
+.scribble-price {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration-line: line-through;
+  color: #a9a9a9;
+}
+
+.potongan-harga {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #6a983c;
+}
+
+.card-img-wrapper {
+  position: relative;
+}
+
+.untuk-semua-card {
+  margin-bottom: 73px;
+  margin-top: 64px;
+}
+
+.button-panah {
+  width: 16px;
+  height: 16px;
+  margin-left: 6px;
+}
+
+.untuk-panah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
