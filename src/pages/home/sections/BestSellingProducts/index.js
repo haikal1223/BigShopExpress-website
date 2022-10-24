@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './bestsellingproducts.css';
 import simbol from 'src/assets/icons/chevron-right.png';
 
 const BestSellingProductsSection = () => {
