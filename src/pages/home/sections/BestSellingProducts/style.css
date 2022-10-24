@@ -1,0 +1,160 @@
+.Best-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.best-selling-wrapper{
+    padding-top: 64px;
+    padding-bottom: 73px;
+}
+.disc-wrapper{
+    position: relative;
+}
+.disc{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 8px;
+    background: #F4F8EC;
+    border-radius: 12px;
+    left: 12px;
+    top: 12px;
+    font-family: 'Poppins';
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    /* C2/A */
+    
+    color: #6A983C;
+}
+.title-selling{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+padding-bottom: 16px;
+}
+.subtitle-selling{
+    font-family: 'OpenSans';
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    padding-bottom: 12px;
+}
+.subtitle-wrapper{
+    color: #6A983C;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 48px;
+    max-width: fit-content;
+}
+.button-selling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 16px;
+    width: 179px;
+    height: 48px;
+    cursor: pointer;
+    background: #F5F5F5;
+    border-radius: 12px;
+}
+.button-selling img{
+    width: 10px;
+}
+
+.button-selling-title{
+    text-align: center;
+    font-family: 'Poppins';
+    margin-right: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+
+}
+.card-selling{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    width: 269px;
+    height: 323px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+.card-selling-title{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 4px;
+    color: #151515;
+    margin-bottom: 12px;
+}
+.card-selling-subtitle{
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+    margin-bottom: 22px;
+}
+.card-price-disc {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-decoration-line: line-through;
+
+/* C1/C */
+
+color: #A9A9A9;
+}
+.card-img{
+    height: 180px;
+    width: 237px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+
+}
+.bottom-card-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-price{
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+}
+.card-selling-button{
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6.5px 12px;
+    background: #6A983C;
+    border: 2px solid #46760A;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
